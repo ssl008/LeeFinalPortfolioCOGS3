@@ -1,0 +1,56 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body.bg-purple {
+  background-color: #762477;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #3cc6d0;
+}
+
+h2,
+h3 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #ff0000;
+}
+
+p {
+  color: #000000;
+}
+
+.dice img {
+  width: 80%;
+  background-color: #2600ff;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+button.myBtn {
+  margin: 30px;
+  background-color: rgb(116, 255, 116);
+  color: rgb(149, 0, 255);
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}

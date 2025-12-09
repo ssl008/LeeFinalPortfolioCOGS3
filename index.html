@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Final Portfolio</title>
+    <link href="index.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="header-content">
+        <div class="name">Sean Lee</div>
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="menu-overlay" id="menuOverlay">
+      <div class="close-btn" id="closeBtn">✕</div>
+
+      <ul>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </div>
+    <!--My Resume-->
+    <div id="resume" class="page">
+      <div class="resume-container">
+        <!--Resume Text-->
+        <div class="resume-left">
+          <div class="resume-title">My Resume</div>
+          <div class="resume-text">You can view my resume below:</div>
+          <div class="resume-button">
+            <a href="SeanResume (1).pdf" target="_blank">Click Here</a>
+          </div>
+        </div>
+        <!--My Profile Picture-->
+        <div class="resume-right">
+          <img src="profilepicture.JPG" alt="Sean Lee Profile Picture" />
+        </div>
+      </div>
+    </div>
+    <!-- About Me Section -->
+    <div id="about" class="page">
+      <div class="about-container">
+        <h2 class="about-title">About Me</h2>
+        <p class="about-text">
+          Hi, I am Sean, a Business Economics student at UC San Diego with a
+          strong interest in finance, financial markets, and investment
+          strategy. I am building a solid foundation in economics and analytics
+          and I am excited to apply these skills in real world settings. Outside
+          of academics, I am an active Brazilian Jiu Jitsu practitioner and
+          competitor, and training has strengthened my communication,
+          adaptability, and teamwork, which are qualities I bring into every
+          project and professional environment. I am always looking to learn
+          from others in the business and finance community and explore
+          opportunities that align with my goals, and my aim is to combine my
+          academic background and personal experiences to make a meaningful
+          impact in the field.
+        </p>
+      </div>
+    </div>
+
+    <!-- My Projects Section -->
+    <div id="projects" class="page">
+      <h2 class="projects-title">My Projects</h2>
+
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="Run.png" alt="Project 1 Image" class="project-img" />
+          <h3>FIT Run Tracker</h3>
+          <p>
+            A minimalist run-tracking app that logs your distance, pace, and
+            progress.
+          </p>
+          <a
+            href="https://www.figma.com/proto/LkIAJEZzCTNLe6KRM8wdA1/Lee.Lab5?node-id=54-289&t=PMhturGYCyU8ReHG-1&starting-point-node-id=54%3A289"
+            target="_blank"
+            >let's Go Run</a
+          >
+        </div>
+        <div class="project-card">
+          <img src="dice.png" alt="Project 2 Image" class="project-img" />
+          <h3>The Dice Game</h3>
+          <p>A multi-round dice game that tracks your winnings and losses.</p>
+          <a href="dice.html" target="_blank">Test Your Luck</a>
+        </div>
+        <div class="project-card">
+          <img src="wedding.png" alt="Project 3 Image" class="project-img" />
+          <h3>Wedding Planner</h3>
+          <p>A wedding planner that seats a number of guests evenly.</p>
+          <a href="wedding.html" target="_blank">Let's Sit</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-tag">COGS 3 Boyle • Fall 2025</div>
+    <script src="index.js"></script>
+  </body>
+</html>
